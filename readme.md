@@ -24,9 +24,24 @@ layout: false
 layout: false
 ## 事前準備（確認）
 
-以下の事前準備を行いましたでしょうか <br>
+以下の事前準備を行いましたでしょうか。こちらのプッシュ通知サンプルを利用して、プッシュ通知を試した時に、作成した
+FCMの「サーバーキー」と「送信ID」を今日のハンズオンでそのまま使えます。
 
+.center[
 ![Androidの事前準備](readme-image/事前準備.png)
+]
+
+---
+layout: false
+## 事前準備（確認）
+
+別のタブとして以下のURLを開き、作成した「サーバーキー」と「送信ID」をもう一度ご確認ください。
+
+.center[
+[Firebase console](https://console.firebase.google.com/)
+]
+
+![FirebaseSettings](readme-image/FCMSettings.png)
 
 ---
 ## 今回のハンズオンセミナーについて
@@ -34,10 +49,22 @@ layout: false
 
 
   講義形式で説明と演習を繰り返してアプリを作成します.<br>
-  用意したコードからコピペで実装を行い、実装完了してから動作確認します。<br>
-  途中で確認ポイントいくつか用意しています。休憩も合わせてとります。
-  <br><br><br>
+  最初はmBaaS実装は含まらないテンプレートプロジェクトを渡します。<br>
+  パズルのように、用意したコードを入れていき、機能ごとに実装完了してから動作確認します。<br>
+  途中で、進捗を合わせるために、5〜10分休憩も用意します。
+  <br><br>
+
+.left-column[
+  .center[
   ![講義形式セミナー2](readme-image/seminar/講義形式セミナー2.png)
+  ]
+]
+
+.right-column[
+  .center[
+  ![puzle](readme-image/seminar/puzzle.jpeg)
+  ]
+]
 
 ---
 ## 今回のハンズオンセミナーについて
@@ -572,7 +599,7 @@ layout: false
 こんな感じでインポートされます
 
 .center[
-![mBaaS_ShopData](readme-image/mBaaS_ShopData.PNG)
+![mBaaS_ShopData](readme-image/mBaaS_ShopData.png)
 ]
 
 ---
