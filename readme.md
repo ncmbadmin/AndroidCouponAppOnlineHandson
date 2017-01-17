@@ -944,6 +944,16 @@ layout: false
 
 ---
 ## プッシュ通知の準備
+### mBaaSの設定
+
+* FCMのプロジェクト画面にある左側「サーバーキー」から、プッシュ通知用APIキーを設定します
+
+.center[
+![mBaaSプッシュ通知設定](readme-image/projectnumber.png)
+]
+
+---
+## プッシュ通知の準備
 ### プッシュ通知①：端末を登録
 
 * `MainActivity.java`を開きます
@@ -993,7 +1003,7 @@ installation.getRegistrationIdInBackground("SENDER_ID", new DoneCallback() {
 * 前のスライドのコードにある`SENDER_ID`の設定を行います。
 
 .center[
-![プロジェクト番号設定](readme-image/projectnumber.png)
+![プロジェクト番号設定](readme-image/senderid.png)
 ]
 
 ---
